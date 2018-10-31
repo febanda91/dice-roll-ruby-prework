@@ -2,6 +2,6 @@
 
 # Feel free to google "how to generate a random number in ruby"
 
-def roll(1, 6)
-  returns rand(6-1) + 1
+def roll
+  return rand.(1..6)
 end
